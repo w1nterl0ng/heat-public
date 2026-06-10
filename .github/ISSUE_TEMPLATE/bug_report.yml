@@ -1,0 +1,58 @@
+name: Bug Report
+description: Report unexpected behavior in the game
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill in as much detail as you can.
+
+        > **Track editor bug?** File it in [heat-track-editor issues](https://github.com/w1nterl0ng/heat-track-editor/issues) instead.
+
+  - type: input
+    id: version
+    attributes:
+      label: Build version
+      description: The version shown in the bottom-right corner of the game (e.g. "v0.1  build 30")
+      placeholder: v0.1  build 30
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS
+        - Windows
+        - WebGL (browser)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug. What did you do, what did you expect, and what actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Step-by-step instructions to reproduce the bug
+      placeholder: |
+        1. Start a race on track X
+        2. Take action Y
+        3. See error
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste any relevant log output or attach a screenshot
+    validations:
+      required: false

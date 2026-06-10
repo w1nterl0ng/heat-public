@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Track Editor Issues
+    url: https://github.com/w1nterl0ng/heat-track-editor/issues
+    about: For bugs or feature requests in the browser track editor, please use this repo.
