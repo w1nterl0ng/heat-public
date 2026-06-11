@@ -3,7 +3,7 @@
   "build": 33,
   "channel": "stable",
   "tag": "v0.1-b33",
-  "published_at": "2026-06-11T15:05:48Z",
+  "published_at": "2026-06-11T15:56:16Z",
   "assets": {
     "mac": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b33/HeatGame-mac-v0.1-b33.zip",
     "windows": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b33/HeatGame-win-v0.1-b33.zip",
