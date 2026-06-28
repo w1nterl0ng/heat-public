@@ -1,18 +1,18 @@
 {
   "version": "0.1",
-  "build": 46,
+  "build": 47,
   "channel": "stable",
-  "tag": "v0.1-b46",
-  "published_at": "2026-06-26T17:39:10Z",
+  "tag": "v0.1-b47",
+  "published_at": "2026-06-28T12:21:00Z",
   "assets": {
-    "mac": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b46/HeatGame-mac-v0.1-b46.zip",
-    "windows": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b46/HeatGame-win-v0.1-b46.zip",
-    "webgl": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b46/HeatGame-webgl-v0.1-b46.zip"
+    "mac": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b47/HeatGame-mac-v0.1-b47.zip",
+    "windows": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b47/HeatGame-win-v0.1-b47.zip",
+    "webgl": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b47/HeatGame-webgl-v0.1-b47.zip"
   },
   "checksums": {
-    "mac": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b46/HeatGame-mac-v0.1-b46.sha256",
-    "windows": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b46/HeatGame-win-v0.1-b46.sha256",
-    "webgl": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b46/HeatGame-webgl-v0.1-b46.sha256"
+    "mac": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b47/HeatGame-mac-v0.1-b47.sha256",
+    "windows": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b47/HeatGame-win-v0.1-b47.sha256",
+    "webgl": "https://github.com/w1nterl0ng/heat-public/releases/download/v0.1-b47/HeatGame-webgl-v0.1-b47.sha256"
   },
   "editor_url": "https://w1nterl0ng.github.io/heat-track-editor/"
 }
