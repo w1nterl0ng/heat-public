@@ -34,7 +34,6 @@ Nightly builds are marked as pre-releases on GitHub. The stable `releases/latest
 4. The release includes:
    - `HeatGame-mac-v0.1-b30.zip` + `.sha256`
    - `HeatGame-win-v0.1-b30.zip` + `.sha256`
-   - `HeatGame-webgl-v0.1-b30.zip` + `.sha256`
 5. `releases/latest.json` is updated in this repo to point to the new release.
 
 ### From the command line

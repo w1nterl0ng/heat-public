@@ -1,0 +1,44 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate catalog JSON
+        run: python3 -m json.tool data/tracks.json >/dev/null && python3 -m json.tool data/approved-tracks.json >/dev/null
+      - name: Validate static links
+        run: |
+          for page in index.html tracks.html guide.html about.html rights.html; do
+            test -f "$page"
+          done
+          test -f assets/site.css
+          test -f assets/site.js
+  deploy:
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,36 @@
+name: Rights or Attribution Concern
+description: Request review, correction, or removal of published content
+labels: [rights-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include sensitive personal information in this public form. If your concern requires private correspondence, state your GitHub username and ask a maintainer to contact you.
+  - type: input
+    id: material
+    attributes:
+      label: Material to review
+      description: "Give the exact page URL, track ID, release asset, or image."
+    validations: {required: true}
+  - type: textarea
+    id: authority
+    attributes:
+      label: Authority and concern
+      description: Explain your relationship to the material and the copyright, trademark, attribution, privacy, or other concern.
+    validations: {required: true}
+  - type: input
+    id: source
+    attributes:
+      label: Original source URL
+      description: Optional, but helpful for copyright or attribution concerns.
+  - type: dropdown
+    id: request
+    attributes:
+      label: Requested action
+      options: [Review, Correct attribution, Remove material, Other]
+    validations: {required: true}
+  - type: input
+    id: contact
+    attributes:
+      label: GitHub username for follow-up
+      description: Do not enter an email address.

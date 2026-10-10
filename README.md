@@ -1,6 +1,8 @@
-# Heat — Digital Edition
+# HEAT: WARMUP — Community Sandbox
 
-A digital adaptation of **Heat: Pedal to the Metal** for Mac, Windows, and browser.
+An unofficial, non-commercial sandbox for community-created tracks and strategy
+testing compatible with **Heat: Pedal to the Metal**. It is not affiliated with
+or endorsed by the owner or publisher of the game.
 
 ---
 
@@ -12,7 +14,6 @@ Visit the **[Releases page](https://github.com/w1nterl0ng/heat-public/releases)*
 |----------|-------|
 | macOS | Universal `.app` — unzip and run |
 | Windows | `.exe` + data folder — unzip and run |
-| WebGL | Browser playable — no install needed |
 
 The [releases/latest.json](releases/latest.json) manifest is machine-readable and always points to the most recent stable build.
 
@@ -30,6 +31,9 @@ Exported `.zip` track packages can be dropped into the game's `TracksImport` fol
 
 - [Getting Started](docs/getting-started.md) — install, run, and import tracks
 - [Release Process](docs/release-process.md) — how builds are versioned and published
+- [Track Publishing](docs/track-publishing.md) — curate and publish community packages
+- [Contributing](CONTRIBUTING.md) — submission and content policy
+- [Rights Reporting](rights.html) — report copyright, trademark, or other concerns
 
 ---
 

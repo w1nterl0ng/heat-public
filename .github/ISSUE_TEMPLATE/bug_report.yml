@@ -25,7 +25,6 @@ body:
       options:
         - macOS
         - Windows
-        - WebGL (browser)
     validations:
       required: true
 

@@ -8,7 +8,6 @@ Go to the **[Releases page](https://github.com/w1nterl0ng/heat-public/releases)*
 |----------|------|-------|
 | macOS | `HeatGame-mac-v*.zip` | Universal binary (Apple Silicon + Intel) |
 | Windows | `HeatGame-win-v*.zip` | 64-bit |
-| WebGL | `HeatGame-webgl-v*.zip` | Host locally via any web server |
 
 The `releases/latest.json` file always points to the latest stable download URLs if you want to automate checks.
 
@@ -30,21 +29,6 @@ The `releases/latest.json` file always points to the latest stable download URLs
 1. Download `HeatGame-win-v{version}-b{build}.zip`.
 2. Unzip the folder anywhere (e.g. `C:\Games\Heat`).
 3. Run `HeatGame.exe`.
-
----
-
-## WebGL (browser)
-
-1. Download `HeatGame-webgl-v{version}-b{build}.zip`.
-2. Unzip it.
-3. Serve the folder with any local web server, for example:
-
-```bash
-cd HeatGame-webgl-v0.1-b30
-npx serve .
-```
-
-Then open **http://localhost:3000** in your browser. WebGL builds cannot be opened directly as `file://` due to browser security restrictions.
 
 ---
 

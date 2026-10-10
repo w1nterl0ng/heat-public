@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["generatedAt", "tracks"],
+  "properties": {
+    "generatedAt": {"type": ["string", "null"]},
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "country", "designer", "version", "spaces", "corners", "laps", "preview", "download", "size", "checksum"],
+        "properties": {
+          "id": {"type": "string"},
+          "name": {"type": "string"},
+          "country": {"type": "string"},
+          "designer": {"type": "string"},
+          "trackEditor": {"type": ["string", "null"]},
+          "version": {"type": "string"},
+          "spaces": {"type": "integer"},
+          "corners": {"type": "integer"},
+          "laps": {"type": "integer"},
+          "startingHeat": {"type": ["integer", "null"]},
+          "startingStress": {"type": ["integer", "null"]},
+          "expansions": {"type": "array", "items": {"type": "string"}},
+          "tags": {"type": "array", "items": {"type": "string"}},
+          "preview": {"type": "string"},
+          "download": {"type": "string", "format": "uri"},
+          "size": {"type": "string"},
+          "checksum": {"type": "string"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-10-10T20:07:00.695416+00:00",
+  "tracks": [
+    {
+      "id": "interlagos_heavy_rain",
+      "name": "Interlagos - Heavy Rain",
+      "country": "Brasil",
+      "designer": "Marc Tooten",
+      "trackEditor": "Marc Tooten",
+      "version": "2026-06-18",
+      "spaces": 116,
+      "corners": 12,
+      "laps": 2,
+      "startingHeat": 7,
+      "startingStress": 2,
+      "expansions": [
+        "Flooded"
+      ],
+      "tags": [
+        "Community"
+      ],
+      "preview": "assets/tracks/preview_interlagos_heavy_rain.jpg",
+      "download": "https://github.com/w1nterl0ng/heat-public/releases/download/community-tracks/track_interlagos_heavy_rain_v2_package.zip",
+      "size": "8.1 MB",
+      "checksum": "sha256:fe98c2298aaaa23fcf2fe194ec8c88c5f642a5a7fd72e122337813d65a9809d9"
+    },
+    {
+      "id": "monte_carlo_1963",
+      "name": "Monte Carlo 1963",
+      "country": "Monaco",
+      "designer": "Marc Tooten",
+      "trackEditor": "Marc Tooten",
+      "version": "2026-06-27",
+      "spaces": 86,
+      "corners": 10,
+      "laps": 2,
+      "startingHeat": 6,
+      "startingStress": 3,
+      "expansions": [
+        "Tunnel"
+      ],
+      "tags": [
+        "Community"
+      ],
+      "preview": "assets/tracks/preview_monte_carlo_1963.jpg",
+      "download": "https://github.com/w1nterl0ng/heat-public/releases/download/community-tracks/track_monte_carlo_1963_v2_package.zip",
+      "size": "9.7 MB",
+      "checksum": "sha256:71dea3967a8a36fab8d4c7a21409ed6a56dd56d7a7105e17a92825052e01da4b"
+    },
+    {
+      "id": "reims_gueux",
+      "name": "Reims-Gueux",
+      "country": "France",
+      "designer": "Marc Tooten",
+      "trackEditor": "Marc Tooten",
+      "version": "2026-06-26",
+      "spaces": 54,
+      "corners": 4,
+      "laps": 3,
+      "startingHeat": 6,
+      "startingStress": 3,
+      "expansions": [],
+      "tags": [
+        "Community"
+      ],
+      "preview": "assets/tracks/preview_reims_gueux.jpg",
+      "download": "https://github.com/w1nterl0ng/heat-public/releases/download/community-tracks/track_reims_gueux_v2_package.zip",
+      "size": "6.2 MB",
+      "checksum": "sha256:89fdec8f2947781f1008077e30f0cb65eda9ed2c0930f469ed3c7e452ab63144"
+    },
+    {
+      "id": "zandvoort",
+      "name": "Zandvoort",
+      "country": "Netherlands",
+      "designer": "Marc Tooten",
+      "trackEditor": "Marc Tooten",
+      "version": "2026-06-17",
+      "spaces": 65,
+      "corners": 5,
+      "laps": 3,
+      "startingHeat": 6,
+      "startingStress": 3,
+      "expansions": [],
+      "tags": [
+        "Community"
+      ],
+      "preview": "assets/tracks/preview_zandvoort.jpg",
+      "download": "https://github.com/w1nterl0ng/heat-public/releases/download/community-tracks/track_zandvoort_v2_package.zip",
+      "size": "6.4 MB",
+      "checksum": "sha256:ba15223cb261e7582d217015c16037bebb3d4efd898380dc884b7eb3110ea7a0"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+name: Community Track Submission
+description: Submit an original or permission-cleared track package for review
+labels: [track-submission]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tracks are manually reviewed before publication. Do not submit official board scans or copied official artwork.
+  - type: input
+    id: name
+    attributes: {label: Track name}
+    validations: {required: true}
+  - type: input
+    id: creator
+    attributes: {label: Creator credit, description: "Name(s) to display in the Track Library"}
+    validations: {required: true}
+  - type: textarea
+    id: package
+    attributes: {label: Package, description: "Attach the track_*_v2_package.zip file."}
+    validations: {required: true}
+  - type: textarea
+    id: rights
+    attributes:
+      label: Rights and artwork confirmation
+      description: Confirm that all layout and art are original or permission-cleared, identify collaborators, and confirm permission to distribute this package.
+    validations: {required: true}
+  - type: textarea
+    id: testing
+    attributes: {label: Testing notes, description: "State the game build used and how you tested importing the package."}
+    validations: {required: true}
