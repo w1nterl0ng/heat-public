@@ -2,7 +2,9 @@
   "tracks": {
     "interlagos_heavy_rain": { "tags": ["Community"] },
     "monte_carlo_1963": { "tags": ["Community"] },
+    "monte_carlo_1960": { "tags": ["Community"] },
     "reims_gueux": { "tags": ["Community"] },
+    "zandcoort_rocky_roads": { "tags": ["Community"] },
     "zandvoort": { "tags": ["Community"] }
   }
 }

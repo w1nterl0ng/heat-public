@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:07:00.695416+00:00",
+  "generatedAt": "2026-10-11T14:30:43.981122+00:00",
   "tracks": [
     {
       "id": "interlagos_heavy_rain",
@@ -23,6 +23,29 @@
       "download": "https://github.com/w1nterl0ng/heat-public/releases/download/community-tracks/track_interlagos_heavy_rain_v2_package.zip",
       "size": "8.1 MB",
       "checksum": "sha256:fe98c2298aaaa23fcf2fe194ec8c88c5f642a5a7fd72e122337813d65a9809d9"
+    },
+    {
+      "id": "monte_carlo_1960",
+      "name": "Monte Carlo 1960",
+      "country": "Monaco",
+      "designer": "Marc Tooten",
+      "trackEditor": "Marc Tooten",
+      "version": "2026-10-11",
+      "spaces": 86,
+      "corners": 10,
+      "laps": 2,
+      "startingHeat": 6,
+      "startingStress": 3,
+      "expansions": [
+        "Tunnel"
+      ],
+      "tags": [
+        "Community"
+      ],
+      "preview": "assets/tracks/preview_monte_carlo_1960.jpg",
+      "download": "https://github.com/w1nterl0ng/heat-public/releases/download/community-tracks/track_monte_carlo_1960_v2_package.zip",
+      "size": "9.7 MB",
+      "checksum": "sha256:fa3e91a861b7727c470c0df72dbc28e1a8a5552c6b9076202ac9d28b1467401a"
     },
     {
       "id": "monte_carlo_1963",
@@ -88,6 +111,29 @@
       "download": "https://github.com/w1nterl0ng/heat-public/releases/download/community-tracks/track_zandvoort_v2_package.zip",
       "size": "6.4 MB",
       "checksum": "sha256:ba15223cb261e7582d217015c16037bebb3d4efd898380dc884b7eb3110ea7a0"
+    },
+    {
+      "id": "zandcoort_rocky_roads",
+      "name": "Zandvoort Rocky Roads",
+      "country": "Netherlands",
+      "designer": "Marc Tooten",
+      "trackEditor": "Marc Tooten",
+      "version": "2026-09-03",
+      "spaces": 65,
+      "corners": 4,
+      "laps": 2,
+      "startingHeat": 7,
+      "startingStress": 3,
+      "expansions": [
+        "Gravel"
+      ],
+      "tags": [
+        "Community"
+      ],
+      "preview": "assets/tracks/preview_zandcoort_rocky_roads.jpg",
+      "download": "https://github.com/w1nterl0ng/heat-public/releases/download/community-tracks/track_zandcoort_rocky_roads_v2_package.zip",
+      "size": "6.6 MB",
+      "checksum": "sha256:610add4aa2585d90a827b09caef81eb167c258f89ed8c1e10a3e59a18fe64029"
     }
   ]
 }
