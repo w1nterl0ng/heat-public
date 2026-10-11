@@ -1,7 +1,7 @@
 (() => {
   const releaseUrl = "releases/latest.json";
   fetch(releaseUrl).then(r => r.ok ? r.json() : Promise.reject()).then(release => {
-    document.querySelectorAll("[data-release-version]").forEach(el => el.textContent = `BETA / V${release.version} / BUILD ${release.build}`);
+    document.querySelectorAll("[data-release-version]").forEach(el => el.textContent = `V${release.version} / BUILD ${release.build}`);
     document.querySelectorAll("[data-release-links]").forEach(el => {
       el.innerHTML = "";
       [["MACOS", release.assets?.mac], ["WINDOWS", release.assets?.windows]].forEach(([label, url]) => {
@@ -9,7 +9,7 @@
         const a = document.createElement("a"); a.className = "button light"; a.href = url; a.textContent = `DOWNLOAD ${label}`; el.append(a);
       });
     });
-  }).catch(() => document.querySelectorAll("[data-release-version]").forEach(el => el.textContent = "LATEST BETA AVAILABLE"));
+  }).catch(() => document.querySelectorAll("[data-release-version]").forEach(el => el.textContent = "LATEST RELEASE AVAILABLE"));
 
   const grid = document.querySelector("#track-grid");
   if (!grid) return;
