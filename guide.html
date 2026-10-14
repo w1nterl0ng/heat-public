@@ -1,12 +1,170 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Install HEAT: WARMUP and community track packages."><title>How to Install — HEAT: WARMUP</title><link rel="stylesheet" href="assets/site.css"></head>
-<body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="index.html">HEAT: WARMUP <small>COMMUNITY SANDBOX</small></a><nav aria-label="Main navigation"><a href="about.html">About</a><a href="index.html#download">Get the game</a><a href="tracks.html">Tracks</a><a href="guide.html">How to install</a><a href="https://github.com/w1nterl0ng/heat-public">GitHub</a></nav></header>
-<main id="main" class="guide"><p class="eyebrow">QUICK START</p><h1>INSTALL & RACE</h1><p class="lead">From first launch to the starting grid. This guide explains the app’s controls and options—not the board game rules.</p>
-<section class="guide-step"><div><p class="eyebrow">01 / START</p><h2>OPEN THE MAIN MENU</h2><p>Choose <strong>Single Player</strong> to begin. <strong>Track Manager</strong> imports community track packages, and <strong>Settings</strong> changes how the app behaves.</p></div><img src="assets/guide/main-menu.png" alt="HEAT WARMUP main menu showing Single Player, Settings, and Track Manager"></section>
-<section class="guide-step reverse"><div><p class="eyebrow">02 / CHOOSE A CIRCUIT</p><h2>SELECT A TRACK</h2><p>Choose an installed circuit from the list. The preview shows its creator, version, starting Heat and Stress, default laps, space/corner count, and any enabled expansions.</p><p>Use <strong>Race Options</strong> when the selection looks right.</p></div><img src="assets/guide/select-track.png" alt="Single Player track selection screen with track preview and metadata"></section>
-<section class="guide-step"><div><p class="eyebrow">03 / SET THE RACE</p><h2>RACE OPTIONS</h2><p>Set the number of human players, Legends, laps, and Legends card difficulty. Enable expansion options only when you want them in the race.</p><p><strong>RNG Seed</strong> is useful for repeatable testing. Developer-only options become available when Developer Mode is enabled.</p></div><img src="assets/guide/race-options.png" alt="Single Player race options for players, Legends, laps, difficulty, and expansions"></section>
-<section class="guide-step reverse"><div><p class="eyebrow">04 / ADD COMMUNITY TRACKS</p><h2>TRACK MANAGER</h2><p>Download a <code>track_*_v2_package.zip</code> from the <a href="tracks.html">Track Library</a>. In Track Manager choose <strong>Import Package(s)</strong> and select that ZIP. Keep the package intact.</p><p><strong>Open Folder</strong> opens the alternate drop folder; after placing ZIPs there, choose <strong>Scan Folder</strong>.</p></div><img src="assets/guide/track-manager.png" alt="Track Manager showing Import Package, Open Folder, and Scan Folder controls"></section>
-<div class="notice"><strong>Import folders:</strong><br>macOS: <code>~/Library/Application Support/SlipStream/H-Game/TracksImport/</code><br>Windows: <code>%APPDATA%\LocalLow\SlipStream\H-Game\TracksImport\</code></div>
-<section class="guide-step"><div><p class="eyebrow">05 / PREFERENCES</p><h2>SETTINGS</h2><p><strong>Show Car Animations</strong> controls movement animation. <strong>High Contrast Cars</strong> improves player-colour readability. <strong>Verbose Event Log</strong> adds more detail for troubleshooting.</p><p><strong>Start in Debug Mode</strong>, <strong>Step by Step Setup</strong>, and <strong>Developer Mode</strong> are advanced testing tools. Developer Mode unlocks free-pick Garage, Weather/Condition picking, and RNG seed controls.</p><p>Use <strong>Check for Updates</strong> to see whether a newer Mac or Windows beta is available.</p></div><img src="assets/guide/settings.png" alt="Settings screen showing animation, debug, event log, accessibility, developer mode, and update controls"></section>
-<h2>UPDATING</h2><p>Game updates do not remove installed tracks. Track packages may be updated separately; importing a newer package version replaces the old installed version.</p></main>
-<footer><p>This is an unofficial, non-commercial community sandbox. It is not affiliated with or endorsed by the owner or publisher of Heat: Pedal to the Metal.</p><p><a href="about.html">About this project</a> · <a href="rights.html">Report rights concerns</a> · <a href="https://github.com/w1nterl0ng/heat-public/issues">Feedback</a></p></footer><script src="assets/site.js"></script></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Install HEAT: WARMUP, learn in-game keyboard and mouse controls, and get gameplay tips.">
+  <title>Guide — HEAT: WARMUP</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">HEAT: WARMUP <small>COMMUNITY SANDBOX</small></a>
+    <nav aria-label="Main navigation">
+      <a href="about.html">About</a>
+      <a href="index.html#download">Get the game</a>
+      <a href="tracks.html">Tracks</a>
+      <a href="guide.html" aria-current="page">Guide</a>
+      <a href="https://github.com/w1nterl0ng/heat-public">GitHub</a>
+    </nav>
+  </header>
+  <main id="main" class="guide">
+    <p class="eyebrow">QUICK START</p>
+    <h1>INSTALL &amp; RACE</h1>
+    <p class="lead">From first launch to the starting grid—plus every keyboard shortcut, mouse control, and a few tips for reading the board. This covers the app, not the official board-game rulebook.</p>
+    <p class="guide-jump"><a href="#controls">Jump to controls &amp; gameplay →</a></p>
+
+    <section class="guide-step">
+      <div>
+        <p class="eyebrow">01 / START</p>
+        <h2>OPEN THE MAIN MENU</h2>
+        <p>Choose <strong>Single Player</strong> to begin. <strong>Track Manager</strong> imports community track packages, and <strong>Settings</strong> changes how the app behaves.</p>
+      </div>
+      <img src="assets/guide/main-menu.png" alt="HEAT WARMUP main menu showing Single Player, Settings, and Track Manager">
+    </section>
+
+    <section class="guide-step reverse">
+      <div>
+        <p class="eyebrow">02 / CHOOSE A CIRCUIT</p>
+        <h2>SELECT A TRACK</h2>
+        <p>Choose an installed circuit from the list. The preview shows its creator, version, starting Heat and Stress, default laps, space/corner count, and any enabled expansions.</p>
+        <p>Use <strong>Race Options</strong> when the selection looks right.</p>
+      </div>
+      <img src="assets/guide/select-track.png" alt="Single Player track selection screen with track preview and metadata">
+    </section>
+
+    <section class="guide-step">
+      <div>
+        <p class="eyebrow">03 / SET THE RACE</p>
+        <h2>RACE OPTIONS</h2>
+        <p>Set the number of human players, Legends, laps, and Legends card difficulty. Enable expansion options only when you want them in the race.</p>
+        <p><strong>RNG Seed</strong> is useful for repeatable testing. Developer-only options become available when Developer Mode is enabled.</p>
+      </div>
+      <img src="assets/guide/race-options.png" alt="Single Player race options for players, Legends, laps, difficulty, and expansions">
+    </section>
+
+    <section class="guide-step reverse">
+      <div>
+        <p class="eyebrow">04 / ADD COMMUNITY TRACKS</p>
+        <h2>TRACK MANAGER</h2>
+        <p>Download a <code>track_*_v2_package.zip</code> from the <a href="tracks.html">Track Library</a>. In Track Manager choose <strong>Import Package(s)</strong> and select that ZIP. Keep the package intact.</p>
+        <p><strong>Open Folder</strong> opens the alternate drop folder; after placing ZIPs there, choose <strong>Scan Folder</strong>.</p>
+      </div>
+      <img src="assets/guide/track-manager.png" alt="Track Manager showing Import Package, Open Folder, and Scan Folder controls">
+    </section>
+
+    <div class="notice">
+      <strong>Import folders:</strong><br>
+      macOS: <code>~/Library/Application Support/SlipStream/H-Game/TracksImport/</code><br>
+      Windows: <code>%APPDATA%\LocalLow\SlipStream\H-Game\TracksImport\</code>
+    </div>
+
+    <section class="guide-step">
+      <div>
+        <p class="eyebrow">05 / PREFERENCES</p>
+        <h2>SETTINGS</h2>
+        <p><strong>Show Car Animations</strong> controls movement animation. <strong>High Contrast Cars</strong> improves player-colour readability. <strong>Verbose Event Log</strong> adds more detail for troubleshooting.</p>
+        <p><strong>Start in Debug Mode</strong>, <strong>Step by Step Setup</strong>, and <strong>Developer Mode</strong> are advanced testing tools. Developer Mode unlocks free-pick Garage, Weather/Condition picking, and RNG seed controls.</p>
+        <p>Use <strong>Check for Updates</strong> to see whether a newer Mac or Windows beta is available.</p>
+      </div>
+      <img src="assets/guide/settings.png" alt="Settings screen showing animation, debug, event log, accessibility, developer mode, and update controls">
+    </section>
+
+    <h2>UPDATING</h2>
+    <p>Game updates do not remove installed tracks. Track packages may be updated separately; importing a newer package version replaces the old installed version.</p>
+
+    <section id="controls" class="controls">
+      <p class="eyebrow">IN THE COCKPIT</p>
+      <h2>CONTROLS &amp; GAMEPLAY</h2>
+      <p class="lead">Most of a round is click-driven: pick gear, select cards, then confirm. Keyboard shortcuts speed that up. The board itself is for looking—pan and zoom the camera; you don’t click cars on the track to play.</p>
+
+      <h3>Mouse &amp; camera</h3>
+      <table class="command-table">
+        <thead>
+          <tr><th scope="col">Input</th><th scope="col">Action</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><kbd>Scroll wheel</kbd></td><td>Zoom in or out toward the cursor (disabled while the pointer is over a scrolling UI panel)</td></tr>
+          <tr><td><kbd>Right-drag</kbd> or <kbd>Middle-drag</kbd></td><td>Pan the board; cancels the camera’s smooth follow until it recenters on a move</td></tr>
+          <tr><td><kbd>Left-click</kbd> cards &amp; buttons</td><td>Select or deselect hand cards; choose gear; confirm phase actions; open react / slipstream / salvage choices</td></tr>
+          <tr><td>Hover Legends tab</td><td>Slide out the current Legends card (pin it with <kbd>L</kbd>)</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Keyboard shortcuts</h3>
+      <table class="command-table">
+        <thead>
+          <tr><th scope="col">Key</th><th scope="col">Action</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><kbd>1</kbd>–<kbd>4</kbd></td><td><strong>Shift:</strong> pick gear (gear dial needs <kbd>Enter</kbd> or Confirm; some layouts commit gear immediately). <strong>Play / Discard / tournament Shift:</strong> toggle that hand slot</td></tr>
+          <tr><td><kbd>5</kbd>–<kbd>7</kbd></td><td>Toggle hand cards in slots 5–7 during Play, Discard, or tournament Shift</td></tr>
+          <tr><td><kbd>Enter</kbd></td><td>Confirm the current action: shift, play, discard, MOVE, speed choice, React done, slipstream attempt, or board-setup PLACE. Also skips in-flight car move animations</td></tr>
+          <tr><td><kbd>Esc</kbd></td><td>Pause / resume overlay (save, load, settings, restart, quit race)</td></tr>
+          <tr><td><kbd>C</kbd></td><td>Center the camera on your car (keeps current zoom). While the event log is open, copies the log instead</td></tr>
+          <tr><td><kbd>E</kbd></td><td>Toggle the full event log</td></tr>
+          <tr><td><kbd>L</kbd></td><td>Pin / unpin the Legends card panel</td></tr>
+          <tr><td><kbd>Space</kbd></td><td>Hide or show all UI canvases for a clean board view. During step-by-step board setup, also confirms PLACE</td></tr>
+          <tr><td><kbd>#</kbd></td><td>Cycle space labels: indices → corner countdowns → hidden</td></tr>
+          <tr><td><kbd>D</kbd></td><td>Toggle gameplay debug overlays (center line, corners, conditions, and related markers)</td></tr>
+          <tr><td><kbd>B</kbd></td><td>Toggle track background tiles</td></tr>
+        </tbody>
+      </table>
+      <p class="hint">Numpad keys match <kbd>1</kbd>–<kbd>7</kbd> and <kbd>Enter</kbd>. Hold <kbd>Shift</kbd> when typing <kbd>#</kbd> so you don’t also select a gear or card.</p>
+
+      <h3>Event log (while open)</h3>
+      <table class="command-table">
+        <thead>
+          <tr><th scope="col">Key</th><th scope="col">Action</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><kbd>E</kbd></td><td>Close the log</td></tr>
+          <tr><td><kbd>C</kbd></td><td>Copy the full log to the clipboard</td></tr>
+          <tr><td><kbd>S</kbd></td><td>Save the log as a <code>.txt</code> file in the app’s data folder</td></tr>
+        </tbody>
+      </table>
+
+      <h3>How a round flows</h3>
+      <ol class="flow-list">
+        <li><strong>Shift</strong> — Choose gear 1–4. Grey shifts are free; red costs Heat; orange warns that your hand is cluttered. Use <strong>← Change Gear</strong> if you still can undo.</li>
+        <li><strong>Play</strong> — Select exactly as many cards as your current gear, then confirm. Number keys toggle slots; click works the same way.</li>
+        <li><strong>Reveal / MOVE</strong> — Press <strong>MOVE ▶</strong> or <kbd>Enter</kbd>, resolve any speed choices, then watch cars advance. <kbd>Enter</kbd> again skips move animations if they’re still playing.</li>
+        <li><strong>Adrenaline / mandatory Heat</strong> — When prompted, pick a bonus (+1 Speed, Cooldown, or Ignore) or which Heat card to sacrifice.</li>
+        <li><strong>React</strong> — Resolve mandatory then optional reactions (including Direct Play from hand). <kbd>Enter</kbd> finishes React after a short debounce so it doesn’t steal the previous MOVE press.</li>
+        <li><strong>Slipstream</strong> — If you’re directly behind another car, attempt or decline. <kbd>Enter</kbd> on the panel attempts slipstream.</li>
+        <li><strong>Discard</strong> — Optional cleanup unless you’re in a tunnel (then you must keep your hand). Confirm or use <strong>KEEP ALL</strong>.</li>
+      </ol>
+
+      <h3>Gameplay tips</h3>
+      <ul class="tip-list">
+        <li><strong>Cluttered hand:</strong> if you don’t have enough playable cards for your gear, the car doesn’t move and gear resets to 1st—watch for the warning before you confirm.</li>
+        <li><strong>Mulligan:</strong> at the start of a round you can pay 1 Heat to redraw seven cards.</li>
+        <li><strong>Tunnel spaces:</strong> discard is blocked; use the tunnel keep-all control instead of trying to pitch cards.</li>
+        <li><strong>Legends:</strong> hover or pin with <kbd>L</kbd> so you can see the AI card that just came out without leaving your hand.</li>
+        <li><strong>Event log:</strong> open with <kbd>E</kbd> when something surprising happened; Verbose Event Log in Settings adds more detail.</li>
+        <li><strong>Camera follow:</strong> the view eases toward the active human after moves. Pan manually anytime; press <kbd>C</kbd> to jump back to your car.</li>
+        <li><strong>Board setup:</strong> with Step by Step Setup on, the walkthrough pans to each weather/token spot—confirm with PLACE, <kbd>Enter</kbd>, or <kbd>Space</kbd>, or skip the rest.</li>
+        <li><strong>Pause menu:</strong> <kbd>Esc</kbd> for save/load mid-race, settings, restart, or quit without closing the whole app.</li>
+        <li><strong>Reading the track:</strong> use <kbd>#</kbd> for space numbers or corner countdowns, and <kbd>D</kbd> when you want debug lines and condition markers visible.</li>
+        <li><strong>This is not the rulebook:</strong> for official Heat rules, use the commercial game materials. This sandbox is for trying lines, packages, and strategy—not a substitute for the published rules.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>This is an unofficial, non-commercial community sandbox. It is not affiliated with or endorsed by the owner or publisher of Heat: Pedal to the Metal.</p>
+    <p><a href="about.html">About this project</a> · <a href="rights.html">Report rights concerns</a> · <a href="https://github.com/w1nterl0ng/heat-public/issues">Feedback</a></p>
+  </footer>
+  <script src="assets/site.js"></script>
+</body>
+</html>
